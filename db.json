@@ -1,33 +1,512 @@
 {
-  "projects": [
+  "products": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "name": "Novex Natucor Preto Cor",
+      "category": "hair",
+      "image": "./src/components/images/product_1.png",
+      "new_price": 3.1,
+      "old_price": 5.1,
+      "brand": "Novex",
+      "description": "Natucor Preto Natural 1.0 é um kit de coloração capilar suave, sem amônia, que oferece uma cor preta natural duradoura. Fácil de usar em casa, o kit inclui creme colorante, ativador, condicionador e luvas protetoras."
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "name": "My Cachos Cacheadas Conditioner",
+      "category": "hair",
+      "image": "./src/components/images/product_2.png",
+      "new_price": 3.6,
+      "old_price": 5.5,
+      "brand": "Novex",
+      "description": "My Cachos Cacheadas CPP Conditioner 4 in 1 is a hair care product suitable for curly hair. With its 4-in-1 formula, it gently cleanses the hair, detangles, hydrates and defines curls."
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "name": "Meus Cachos Cacheadas Champô",
+      "category": "hair",
+      "image": "./src/components/images/product_3.png",
+      "new_price": 4.2,
+      "old_price": 6.5,
+      "brand": "Novex",
+      "description": "Meus Cachos Cacheadas Champô 4I Exp 300mL é um produto para cuidados com o cabelo cacheado. Este champô ajuda a hidratar e nutrir os fios, deixando os cachos mais definidos e com menos frizz. Com uma fórmula suave e livre de sulfatos, parabenos e silicones, é adequado para cabelos sensíveis e pode ser usado diariamente."
+    },
+    {
+      "id": 4,
+      "name": "Novex Meus Cachos de Cinema Shampoo",
+      "category": "hair",
+      "image": "./src/components/images/product_4.png",
+      "new_price": 4.4,
+      "old_price": 6.4,
+      "brand": "Novex",
+      "description": "O Shampoo Novex Meus Cachos de Cinema é um produto enriquecido com óleos puros de Argan, Coco, Linhaça, Girassol, Abacate e Oliva, que proporcionam cabelos cacheados suaves, brilhantes e cheios de vida. Ele é ideal para caracóis que sofrem com ressecamento e precisam de mais volume. Sua fórmula não contém sulfatos e é livre de ingredientes agressivos, além de contar com uma mistura de óleos que ajuda a suavizar os cachos e adicionar brilho."
+    },
+    {
+      "id": 5,
+      "name": "Novex Meus Cachos de Cinema Conditioner",
+      "category": "hair",
+      "image": "./src/components/images/product_5.png",
+      "new_price": 4.4,
+      "old_price": 6.4,
+      "brand": "Novex",
+      "description": "O Condicionador Novex Meus Cachos de Cinema é feito com uma mistura de óleos naturais que deixam os cachos suaves, brilhantes e cheios de vida. Ideal para cabelos cacheados secos que precisam de volume e nutrição."
+    },
+    {
+      "id": 6,
+      "name": "Novex Meus Cachos de Cinema Ativador",
+      "category": "hair",
+      "image": "./src/components/images/product_6.png",
+      "new_price": 5.7,
+      "old_price": 8.7,
+      "brand": "Novex",
+      "description": "O Ativador de Cachos Novex Meus Cachos de Cinema é enriquecido com puros Óleos de Argan, Coco, Linhaça, Girassol, Abacate e Oliva, proporcionando definição, suavidade e brilho aos cachos. Sua fórmula é livre de sulfatos e parabenos, e é ideal para cabelos cacheados que precisam de nutrição e definição de cachos."
+    },
+    {
+      "id": 7,
+      "name": "Novex Meus Cachos de Cinema Mascara",
+      "category": "hair",
+      "image": "./src/components/images/product_7.png",
+      "new_price": 7.8,
+      "old_price": 11.8,
+      "brand": "Novex",
+      "description": "A Máscara Novex Meus Cachos de Cinema é um tratamento intensivo enriquecido com uma mistura de óleos naturais, incluindo óleo de argan, coco, linhaça, girassol, abacate e oliva, que proporciona hidratação profunda, nutrição e definição aos cachos. Ideal para cabelos secos e danificados, esta máscara restaura a saúde e a vitalidade dos cachos, deixando-os suaves, brilhantes e com movimento"
+    },
+    {
+      "id": 8,
+      "name": "Shampoo Novex Santo Black Poderoso",
+      "category": "hair",
+      "image": "./src/components/images/product_8.png",
+      "new_price": 4.4,
+      "old_price": 6.8,
+      "brand": "Novex",
+      "description": "Shampoo Novex Santo Black Poderoso está enriquecido com Óleo de Baobá e possui um poder de limpeza e hidratação profundo."
+    },
+    {
+      "id": 9,
+      "name": "Condicionador Novex Santo Black Poderoso",
+      "category": "hair",
+      "image": "./src/components/images/product_9.png",
+      "new_price": 4.4,
+      "old_price": 6.8,
+      "brand": "Novex",
+      "description": "Condicionador Novex Santo Black Poderoso 300g é um produto de cuidado capilar que ajuda a nutrir e fortalecer os cabelos, deixando-os mais saudáveis e brilhantes."
+    },
+    {
+      "id": 10,
+      "name": "Creme de Pentear Novex Santo Black Poderoso",
+      "category": "hair",
+      "image": "./src/components/images/product_10.png",
+      "new_price": 7.1,
+      "old_price": 10.9,
+      "brand": "Novex",
+      "description": "Creme de Pentear Novex Santo Black Poderoso 500g é um produto de cuidado capilar que ajuda a hidratar, desembaraçar e definir os cabelos, deixando-os mais saudáveis, macios e com brilho intenso."
+    },
+    {
+      "id": 11,
+      "name": "GOTA DOURADA SHAMPOO FORTALECIMENTO 430ML",
+      "category": "hair",
+      "image": "./src/components/images/product_11.png",
+      "new_price": 8,
+      "old_price": 12.5,
+      "brand": "Mutual Smile",
+      "description": "Gota Dourada Shampoo Fortalecimento com extrato de erva natural que fortalece a raiz dos cabelos e devolve a saúde, o brilho e a maciez. Indicado para todos os tipos de cabelo e auxiliar no combate à seborréia, queda e caspa."
+    },
+    {
+      "id": 12,
+      "name": "Andreia Gel Varnish",
+      "category": "nails",
+      "image": "./src/components/images/product_12.png",
+      "new_price": 4.5,
+      "old_price": 6.9,
+      "brand": "Andreia",
+      "description": "Verniz Gel Andreia 201 é um tipo de esmalte em gel utilizado para decorar as unhas. Ele oferece um acabamento brilhante e duradouro e é resistente a lascas e arranhões. O Andreia 201 tem uma tonalidade vermelha vibrante e intensa, ideal para criar uma manicure elegante e sofisticada."
+    },
+    {
+      "id": 13,
+      "name": "Andreia Gel Varnish",
+      "category": "nails",
+      "image": "./src/components/images/product_13.png",
+      "new_price": 4.5,
+      "old_price": 6.9,
+      "brand": "Andreia",
+      "description": "Verniz Gel Andreia 202 é um tipo de esmalte em gel usado para decorar as unhas. Possui um acabamento brilhante e duradouro, resistente a lascas e arranhões. O Andreia 202 tem uma tonalidade rosa suave e romântica, perfeita para criar uma manicure elegante e discreta. É fácil de aplicar e remover com o uso de uma lâmpada LED ou UV.."
+    },
+    {
+      "id": 14,
+      "name": "Andreia Gel Varnish",
+      "category": "nails",
+      "image": "./src/components/images/product_14.png",
+      "new_price": 4.5,
+      "old_price": 6.9,
+      "brand": "Andreia",
+      "description": "Verniz de Gel Andreia 302 10,5ml é um esmalte em gel de cor específica fabricado pela marca Andreia. Este verniz em gel vem em um frasco de 10,5ml e é usado para criar um acabamento brilhante e duradouro em unhas naturais ou artificiais."
+    },
+    {
+      "id": 15,
+      "name": "Andreia Gel Varnish",
+      "category": "nails",
+      "image": "./src/components/images/product_15.png",
+      "new_price": 4.5,
+      "old_price": 6.9,
+      "brand": "Andreia",
+      "description": "O Verniz Gel Andreia Polish G01 é um esmalte de unhas de longa duração que proporciona um acabamento brilhante e resistente. Sua fórmula exclusiva garante uma aplicação suave e uniforme, além de oferecer uma grande variedade de cores intensas e vibrantes."
+    },
+    {
+      "id": 16,
+      "name": "Andreia Gel Varnish",
+      "category": "nails",
+      "image": "./src/components/images/product_16.png",
+      "new_price": 10,
+      "old_price": 16.5,
+      "brand": "Andreia",
+      "description": "O Verniz Gel Andreia Polish G11 é um esmalte de unhas de longa duração que proporciona um acabamento brilhante e resistente. Sua fórmula exclusiva garante uma aplicação suave e uniforme, além de oferecer uma grande variedade de cores intensas e vibrantes."
+    },
+    {
+      "id": 17,
+      "name": "Andrea All In One Prep + Clean",
+      "category": "nails",
+      "image": "./src/components/images/product_17.png",
+      "new_price": 2.9,
+      "old_price": 4,
+      "brand": "Andreia",
+      "description": "Andreia All In One Prep + Clean é um produto para preparação e limpeza das unhas antes de aplicar o verniz ou gel. Ele ajuda a remover a oleosidade natural das unhas, desinfetando e preparando-as para uma melhor aderência do verniz ou gel."
+    },
+    {
+      "id": 18,
+      "name": "Andreia Essential Nail Polish Remover",
+      "category": "nails",
+      "image": "./src/components/images/product_18.png",
+      "new_price": 2.5,
+      "old_price": 3.2,
+      "brand": "Andreia",
+      "description": "O Removedor de Verniz Andreia Essential com Amaciador de 250 ml é um produto projetado para remover eficazmente o verniz das unhas, enquanto hidrata e amacia as cutículas e a pele ao redor das unhas. gel."
+    },
+    {
+      "id": 19,
+      "name": "Andreia Hard Gel 2 IN 1 Clear - High Viscosity",
+      "category": "nails",
+      "image": "./src/components/images/product_19.png",
+      "new_price": 13.9,
+      "old_price": 20.4,
+      "brand": "Andreia",
+      "description": "O Andreia Hard Gel 2 IN 1 Clear - Alta Viscosidade 44gr é um gel construtor transparente utilizado para modelar e esculpir unhas em gel. Com alta viscosidade, proporciona uma aplicação mais precisa e fácil modelagem, permitindo a criação de curvaturas naturais e duradouras."
+    },
+    {
+      "id": 20,
+      "name": "Andreia Acrylic Powder Tom Clear",
+      "category": "nails",
+      "image": "./src/components/images/product_20.png",
+      "new_price": 6.5,
+      "old_price": 10,
+      "brand": "Andreia",
+      "description": "O Andreia Acrylic Powder Tom Clear 20gr é um pó acrílico transparente utilizado para criar unhas de acrílico. Com alta aderência e resistência, proporciona um acabamento uniforme e duradouro às unhas. "
+    },
+    {
+      "id": 21,
+      "name": "Jnc Nail Polish",
+      "category": "nails",
+      "image": "./src/components/images/product_21.png",
+      "new_price": 5.9,
+      "old_price": 7,
+      "brand": "JNC",
+      "description": "Professional Nail Polish"
+    },
+    {
+      "id": 22,
+      "name": "Jnc Nail Polish",
+      "category": "nails",
+      "image": "./src/components/images/product_22.png",
+      "new_price": 5.9,
+      "old_price": 7,
+      "brand": "JNC",
+      "description": "Professional Nail Polish"
+    },
+    {
+      "id": 23,
+      "name": "Jnc Nail Polish",
+      "category": "nails",
+      "image": "./src/components/images/product_23.png",
+      "new_price": 5.9,
+      "old_price": 7,
+      "brand": "JNC",
+      "description": "Professional Nail Polish"
+    },
+    {
+      "id": 24,
+      "name": "Jnc Nail Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_24.png",
+      "new_price": 5.5,
+      "old_price": 7,
+      "brand": "JNC",
+      "description": "Professional Nail Accessory"
+    },
+    {
+      "id": 25,
+      "name": "Jnc Nail Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_25.png",
+      "new_price": 6.4,
+      "old_price": 8.9,
+      "brand": "JNC",
+      "description": "Professional Nail Accessory"
+    },
+    {
+      "id": 26,
+      "name": "Eurostil Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_26.png",
+      "new_price": 4.9,
+      "old_price": 7.6,
+      "brand": "Eurostil",
+      "description": "Professional Hair Accessory"
+    },
+    {
+      "id": 27,
+      "name": "Eurostil Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_27.png",
+      "new_price": 5.6,
+      "old_price": 9.6,
+      "brand": "Eurostil",
+      "description": "Professional Hair Accessory"
+    },
+    {
+      "id": 28,
+      "name": "Eurostil Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_28.png",
+      "new_price": 8.9,
+      "old_price": 15.8,
+      "brand": "Eurostil",
+      "description": "Professional Hair Accessory"
+    },
+    {
+      "id": 29,
+      "name": "Eurostil Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_29.png",
+      "new_price": 5.9,
+      "old_price": 8.6,
+      "brand": "Eurostil",
+      "description": "Professional Nail Accessory"
+    },
+    {
+      "id": 30,
+      "name": "Ricki Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_30.png",
+      "new_price": 10.6,
+      "old_price": 20.5,
+      "brand": "Ricki",
+      "description": "Professional Manicure & Pedicure Accessory"
+    },
+    {
+      "id": 31,
+      "name": "Jnc Nail Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_31.png",
+      "new_price": 2.9,
+      "old_price": 3.5,
+      "brand": "JNC",
+      "description": "Professional Nail Accessory"
+    },
+    {
+      "id": 32,
+      "name": "Jnc Nail Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_32.png",
+      "new_price": 6.8,
+      "old_price": 7.9,
+      "brand": "JNC",
+      "description": "Professional Nail Accessory"
+    },
+    {
+      "id": 33,
+      "name": "Jnc Nail Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_33.png",
+      "new_price": 5.3,
+      "old_price": 6.8,
+      "brand": "JNC",
+      "description": "Professional Nail Accessory"
+    },
+    {
+      "id": 34,
+      "name": "Jnc Nail Accessory",
+      "category": "accessory",
+      "image": "./src/components/images/product_34.png",
+      "new_price": 4.7,
+      "old_price": 5.9,
+      "brand": "JNC",
+      "description": "Professional Nail Accessory"
+    },
+    {
+      "id": 35,
+      "name": "Wahl Trimmer",
+      "category": "professional",
+      "image": "./src/components/images/product_35.png",
+      "new_price": 190,
+      "old_price": 200,
+      "brand": "Wahl",
+      "description": "O Wahl Magic Clip Gold é um aparador de cabelo profissional sem fio, com um motor potente de 6.500 rpm e um novo cabeçote de corte de titânio e carbono. Ele possui uma alavanca de ajuste que permite ajustar o comprimento de corte de 0,8 a 2,5 mm, e vem com 8 pentes premium adaptáveis para diferentes comprimentos de cabelo. O Magic Clip Gold tem uma duração de bateria de até 100 minutos, e pode ser usado com ou sem fio. Ele também vem com uma base de carregamento, para que você possa mantê-lo sempre carregado e pronto para usar."
+    },
+    {
+      "id": 36,
+      "name": "Wahl Mobile Shaver",
+      "category": "professional",
+      "image": "./src/components/images/product_36.png",
+      "new_price": 16,
+      "old_price": 25,
+      "brand": "Wahl",
+      "description": "O Wahl Mobile Shaver é um barbeador sem fio compacto e leve, perfeito para viagens. Ele vem com uma variedade de acessórios, incluindo um carregador de cabo, uma escova de limpeza pequena, uma lâmina de corte extra, uma folha de barbear extra, um estojo de armazenamento de metal, uma bolsa de armazenamento de veludo e uma tampa protetora da folha de barbear."
+    },
+    {
+      "id": 37,
+      "name": "Wahl Machine Spray",
+      "category": "professional",
+      "image": "./src/components/images/product_37.png",
+      "new_price": 8.5,
+      "old_price": 15,
+      "brand": "Wahl",
+      "description": "Este produto é um spray de limpeza e prevenção de corrosão para lâminas de aparadores de cabelo."
+    },
+    {
+      "id": 38,
+      "name": "Wahl Super Dryer",
+      "category": "professional",
+      "image": "./src/components/images/product_38.png",
+      "new_price": 42,
+      "old_price": 48.5,
+      "brand": "Wahl",
+      "description": "O secador de cabelo Wahl Pro Styling Series Type 4340-0470 é uma ferramenta versátil que permite secar o cabelo de forma rápida e eficiente. Possui uma variedade de recursos, incluindo velocidade e temperatura reguláveis, função iônica e um bocal de concentrador para criar penteados com mais volume."
+    },
+    {
+      "id": 39,
+      "name": "Tijera Wahl '6'",
+      "category": "professional",
+      "image": "./src/components/images/product_39.png",
+      "new_price": 55,
+      "old_price": 60,
+      "brand": "Wahl",
+      "description": "A Tesoura de Corte Wahl é uma tesoura de aço inoxidável com fio de navalha, indicada para cortes de cabelo que requeiram extrema precisão e detalhe. A tesoura inclui uma bolsa protetora e uma caixa preta para proteção adicional."
+    },
+    {
+      "id": 40,
+      "name": "5 STAR BARBAR DRYER",
+      "category": "professional",
+      "image": "./src/components/images/product_40.png",
+      "new_price": 90,
+      "old_price": 100,
+      "brand": "Wahl",
+      "description": "Este secador de cabelo retro e moderno é potente e versátil, com um design elegante e sofisticado. Ele seca o cabelo rapidamente e de forma uniforme, e ajuda a criar diferentes estilos de penteado."
+    },
+    {
+      "id": 41,
+      "name": "Babyliss Massager Gold Cordless",
+      "category": "professional",
+      "image": "./src/components/images/product_41.png",
+      "new_price": 135,
+      "old_price": 150,
+      "brand": "Babyliss",
+      "description": "O VibeFX é um massageador silencioso e leve de 2 velocidades que combina a precisão de uma massagem nas mãos com pulsos relaxantes. A carcaça de aço inoxidável envolve um motor sem escova de longa vida útil que produz o dobro da eficiência de massagem de outras marcas. O VibeFX é a ferramenta profissional perfeita para barbeiros e cabeleireiros para aprimorar a experiência do cliente, fornecendo um serviço de massagem relaxante no pescoço, costas, cabeça e rosto."
+    },
+    {
+      "id": 42,
+      "name": "Babyliss Pro Fx825e Lo-profx Clipper Cortador de Cabelo e Barba",
+      "category": "professional",
+      "image": "./src/components/images/product_42.png",
+      "new_price": 105,
+      "old_price": 118,
+      "brand": "Babyliss",
+      "description": "BaByliss PRO FX825E LO-PROFX CLIPPER, 1 un., Cortadores para homens, Mime-se com um penteado impecável sem ir ao cabeleireiro. O aparador de cabelo BaByliss PRO FX825E LO-PROFX CLIPPER garante que cria facilmente o penteado com que sonha no conforto do seu lar."
+    },
+    {
+      "id": 43,
+      "name": "Alisador de Cabelo Babyliss Pro The Straightener",
+      "category": "professional",
+      "image": "./src/components/images/product_43.png",
+      "new_price": 86.5,
+      "old_price": 95,
+      "brand": "Babyliss",
+      "description": "O alisador de cabelo BaByliss PRO Straighteners Ep Technology 5.0 2091E cria um penteado impecável sem dificuldade. O seu cabelo fica sempre perfeitamente penteado, flexível e brilhante."
+    },
+    {
+      "id": 44,
+      "name": "Vaporizador Cabelo e Barba RickiParodi ION Steam Portátil 1200w",
+      "category": "professional",
+      "image": "./src/components/images/product_44.png",
+      "new_price": 99.5,
+      "old_price": 105,
+      "brand": "Ricki",
+      "description": "IONSTEAM usa um sistema patenteado de vapor e nano spray com iões negativos para formar uma pressão dinâmica de 3,3 ATM. O equipamento vaporiza a água em nano moléculas com diâmetro de 0,26 NG metros, que transportam o calor latente da vaporização e iões negativos, penetrando na cutícula do cabelo a cerca de 1 NM, no córtex capilar, onde o calor libertado promove o cuidado com os cabelos, sejam naturais, pintados ou com permanentes."
+    },
+    {
+      "id": 45,
+      "name": "Baruffaldi Alicate Cutículas Aço 10cm 7mm",
+      "category": "professional",
+      "image": "./src/components/images/product_45.png",
+      "new_price": 8.5,
+      "old_price": 12,
+      "brand": "Ricki",
+      "description": "Acessório indispensável para uma manicure perfeita."
+    },
+    {
+      "id": 46,
+      "name": "Parlux Secador Alyon Bronze",
+      "category": "professional",
+      "image": "./src/components/images/product_46.png",
+      "new_price": 138.5,
+      "old_price": 145.5,
+      "brand": "Ricki",
+      "description": "O Parlux ALYON® foi projetado para oferecer aos profissionais um produto de alto desempenho leve, durável ​​e que pode ser usado sem limitar a criatividade do cabeleireiro de forma alguma.O novo Parlux ALYON®, um nome que evoca o significado de poder, é uma combinação de tecnologia e inovação, duas características também expressas pelo seu acabamento exclusivo e prismático."
+    },
+    {
+      "id": 47,
+      "name": "Andreia Catalizador a.lamp Pro 80W",
+      "category": "professional",
+      "image": "./src/components/images/product_47.png",
+      "new_price": 50,
+      "old_price": 60,
+      "brand": "Andreia",
+      "description": "Lâmpada LED de uso profissional concebida para catalisar adequadamente produtos de unhas LED e UV. A sua basemamovível, possibilita a realização de manicures e pedicures. Ao colocar a mão/pé no interior, o sensor de movimento fará com que a lâmpada se ligue automaticamente. Tem espaço para ambas as mãos e modo low Heat (baixo calor)."
+    },
+    {
+      "id": 48,
+      "name": "Andreia A.Drill Pro Low Vibration 8h 35.000 RPM",
+      "category": "professional",
+      "image": "./src/components/images/product_48.png",
+      "new_price": 85,
+      "old_price": 90,
+      "brand": "Andreia",
+      "description": "Acessórios de Manicure e Pedicure"
+    },
+    {
+      "id": 49,
+      "name": "Andreia A. Duster PRO 2 Velocidades Professional",
+      "category": "professional",
+      "image": "./src/components/images/product_49.png",
+      "new_price": 54,
+      "old_price": 60,
+      "brand": "Andreia",
+      "description": "Suporte de Mão em Silicone,Filtro Substituível,Baixo Ruído,Durável,Limpeza Prática.Inclui: Cabo de Alimentação."
+    },
+    {
+      "id": 50,
+      "name": "Ms panela de cera professional topwax 100w",
+      "category": "professional",
+      "image": "./src/components/images/product_50.png",
+      "new_price": 16.9,
+      "old_price": 20,
+      "brand": "Mutual Smile",
+      "description": "Pedicure and Manicure Heater"
+    }
+  ],
+  "cart": [
+    {
+      "itemId": 2,
+      "purchaseMode": "retail",
+      "amount": 1,
+      "id": 1
     }
   ]
 }
